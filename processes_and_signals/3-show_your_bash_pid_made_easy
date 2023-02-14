@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script dipslays the PID with the process name, for processes containing b+ash
+
+pgrep -1 bash
