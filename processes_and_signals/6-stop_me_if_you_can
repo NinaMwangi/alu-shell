@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script stops a process, cannot use kill or killall
+
+pkill -f beyond
