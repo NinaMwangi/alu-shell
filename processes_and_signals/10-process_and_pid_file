@@ -9,8 +9,8 @@ function terminator() {
     exit
 }
 
-trap "echo I hate the kill commad;terminator" SIGTERM
-trap "echo Y U no love me?;terminator" SIGINT
+trap "echo I hate the kill command;terminator" SIGTERM
+trap "echo Y U no love me?!;terminator" SIGINT
 
 echo $$ >> /var/run/myscript.pid
 
