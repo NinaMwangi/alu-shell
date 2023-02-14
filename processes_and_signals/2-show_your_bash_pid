@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script uses 'Task 1' to to display lines containg bash. Cant use pgrep
+# shellcheck disable=SC2009
+
+./1-list_your_processes | grep "bash"
