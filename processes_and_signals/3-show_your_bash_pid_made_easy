@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# This script dipslays the PID with the process name, for processes containing b+ash
+# This script dipslays the PID with the process name.
+# For processes containing the word bash, do not use p s
 
-pgrep -1 bash
+pgrep -l bash
